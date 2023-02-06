@@ -362,7 +362,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7UB7U8DDCK;
+				DEVELOPMENT_TEAM = 4DQT7J2N93;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "VeraSDKExample-CP/Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Magic needs camera access in order to happen!";
@@ -393,7 +393,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7UB7U8DDCK;
+				DEVELOPMENT_TEAM = 4DQT7J2N93;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "VeraSDKExample-CP/Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Magic needs camera access in order to happen!";
