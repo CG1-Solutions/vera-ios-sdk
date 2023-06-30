@@ -94,13 +94,13 @@ final class TestSizeViewController: UIViewController {
                     port: 443
                 ),
                 app: .init(
-                    clientID: "test",
-                    siteIDs: ["azrieli-hashalom-tlv"],
+                    clientID: "cg1_msp_vera_demo",
+                    siteIDs: ["cg1-msp-hq"],
                     shouldShowCloseButton: true,
                     hideHeader: false
                 ),
                 auth: .init(username: nil),
-                language: .he
+                language: .en
             )
         )
 

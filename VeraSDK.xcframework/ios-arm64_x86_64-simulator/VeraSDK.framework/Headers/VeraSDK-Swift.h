@@ -232,8 +232,8 @@ using UInt = size_t;
 #endif
 @import ARKit;
 @import CoreFoundation;
-@import Foundation;
 @import MetalKit;
+@import ObjectiveC;
 @import UIKit;
 @import WebKit;
 #endif
@@ -259,6 +259,22 @@ using UInt = size_t;
 
 
 
+
+
+@class NSTimer;
+@class UITapGestureRecognizer;
+
+@interface UIView (SWIFT_EXTENSION(VeraSDK))
+- (void)toastTimerDidFinish:(NSTimer * _Nonnull)timer;
+- (void)handleToastTapped:(UITapGestureRecognizer * _Nonnull)recognizer;
+@end
+
+
+SWIFT_CLASS("_TtC7VeraSDK11VeraSDKObjC")
+@interface VeraSDKObjC : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSCoder;
 @class UIEvent;
 @class NSString;
@@ -278,6 +294,7 @@ SWIFT_CLASS("_TtC7VeraSDK18VeraViewController") SWIFT_AVAILABILITY(ios,introduce
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
+
 @class MTKView;
 
 @interface VeraViewController (SWIFT_EXTENSION(VeraSDK)) <MTKViewDelegate>
@@ -285,22 +302,6 @@ SWIFT_CLASS("_TtC7VeraSDK18VeraViewController") SWIFT_AVAILABILITY(ios,introduce
 - (void)drawInMTKView:(MTKView * _Nonnull)view;
 @end
 
-
-@class WKWebView;
-@class WKNavigation;
-@class WKNavigationAction;
-@class NSURLAuthenticationChallenge;
-@class NSURLCredential;
-@class WKNavigationResponse;
-
-@interface VeraViewController (SWIFT_EXTENSION(VeraSDK)) <WKNavigationDelegate>
-- (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)navigation;
-- (void)webView:(WKWebView * _Nonnull)webView didFailProvisionalNavigation:(WKNavigation * _Null_unspecified)navigation withError:(NSError * _Nonnull)error;
-- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
-- (void)webView:(WKWebView * _Nonnull)webView didReceiveAuthenticationChallenge:(NSURLAuthenticationChallenge * _Nonnull)challenge completionHandler:(void (^ _Nonnull)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable))completionHandler;
-- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationResponse:(WKNavigationResponse * _Nonnull)navigationResponse decisionHandler:(void (^ _Nonnull)(WKNavigationResponsePolicy))decisionHandler;
-- (void)webViewWebContentProcessDidTerminate:(WKWebView * _Nonnull)webView;
-@end
 
 
 #endif
@@ -545,8 +546,8 @@ using UInt = size_t;
 #endif
 @import ARKit;
 @import CoreFoundation;
-@import Foundation;
 @import MetalKit;
+@import ObjectiveC;
 @import UIKit;
 @import WebKit;
 #endif
@@ -572,6 +573,22 @@ using UInt = size_t;
 
 
 
+
+
+@class NSTimer;
+@class UITapGestureRecognizer;
+
+@interface UIView (SWIFT_EXTENSION(VeraSDK))
+- (void)toastTimerDidFinish:(NSTimer * _Nonnull)timer;
+- (void)handleToastTapped:(UITapGestureRecognizer * _Nonnull)recognizer;
+@end
+
+
+SWIFT_CLASS("_TtC7VeraSDK11VeraSDKObjC")
+@interface VeraSDKObjC : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSCoder;
 @class UIEvent;
 @class NSString;
@@ -591,6 +608,7 @@ SWIFT_CLASS("_TtC7VeraSDK18VeraViewController") SWIFT_AVAILABILITY(ios,introduce
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
+
 @class MTKView;
 
 @interface VeraViewController (SWIFT_EXTENSION(VeraSDK)) <MTKViewDelegate>
@@ -598,22 +616,6 @@ SWIFT_CLASS("_TtC7VeraSDK18VeraViewController") SWIFT_AVAILABILITY(ios,introduce
 - (void)drawInMTKView:(MTKView * _Nonnull)view;
 @end
 
-
-@class WKWebView;
-@class WKNavigation;
-@class WKNavigationAction;
-@class NSURLAuthenticationChallenge;
-@class NSURLCredential;
-@class WKNavigationResponse;
-
-@interface VeraViewController (SWIFT_EXTENSION(VeraSDK)) <WKNavigationDelegate>
-- (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)navigation;
-- (void)webView:(WKWebView * _Nonnull)webView didFailProvisionalNavigation:(WKNavigation * _Null_unspecified)navigation withError:(NSError * _Nonnull)error;
-- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
-- (void)webView:(WKWebView * _Nonnull)webView didReceiveAuthenticationChallenge:(NSURLAuthenticationChallenge * _Nonnull)challenge completionHandler:(void (^ _Nonnull)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable))completionHandler;
-- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationResponse:(WKNavigationResponse * _Nonnull)navigationResponse decisionHandler:(void (^ _Nonnull)(WKNavigationResponsePolicy))decisionHandler;
-- (void)webViewWebContentProcessDidTerminate:(WKWebView * _Nonnull)webView;
-@end
 
 
 #endif
