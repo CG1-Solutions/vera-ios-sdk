@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/VeraSDK-Swift.h</key>
 		<data>
-		rBpfOezwCTdQ7JTPMSB3Dn5Ja5I=
+		S0EsfP7RWadW3zW7EtJTLyWPKbI=
 		</data>
 		<key>Headers/VeraSDK.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		h2rv103M04U2FirtMdsntvLqfZE=
+		he/OS8CVaBi2qCKBm8h4I32aie0=
 		</data>
 		<key>Modules/VeraSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		XRGa+ZfwL+cflJzSTCOuqVA96uI=
+		jhPIYUr/gydQpF4dcnRDqEIDu1s=
 		</data>
 		<key>Modules/VeraSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		AiIUwdZAcFsA48VwFdnuyCvUOyQ=
+		4m2lJUPGAM7EaZfdx3VNAfsiOp4=
 		</data>
 		<key>Modules/VeraSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/VeraSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		AiIUwdZAcFsA48VwFdnuyCvUOyQ=
+		4m2lJUPGAM7EaZfdx3VNAfsiOp4=
 		</data>
 		<key>Modules/VeraSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		7GJMSnzlep67KmskEzvN2Rjv5YI=
+		QGtcD95BpQJT+RfM9J5MDOx2vR8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>mergeDeep.js</key>
 		<data>
-		6crmOaUkY/n6VZIoAfKKkO4kR/M=
+		iote/FHU8uFx7TcL6fH2Cf6tJho=
 		</data>
 		<key>no_internet.html</key>
 		<data>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+X94JvieHC+MsOTHNCZDvT6upDEVjjdw21M7meeSTCo=
+			01arSatTPxPdZLJK23UuXPpKAIaw0pt/eD5O8fqccbc=
 			</data>
 		</dict>
 		<key>Headers/VeraSDK.h</key>
@@ -92,14 +92,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XEM4wjwQNgYtWBQf22rxLgc1cf2clLTn2nuaTwqolMo=
+			S0t3yLiZtXUjvtTskuuMNsu1VA6cpqF6WAK8xzWZZ9Y=
 			</data>
 		</dict>
 		<key>Modules/VeraSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L0l6HThjLFK+qOZgczN5sKHNRwwF669ztNAT7d/QVTk=
+			9xI1204YE5aGz2KZIsSyWVDQqkZeHPxv/IymqzxVReU=
 			</data>
 		</dict>
 		<key>Modules/VeraSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L0l6HThjLFK+qOZgczN5sKHNRwwF669ztNAT7d/QVTk=
+			9xI1204YE5aGz2KZIsSyWVDQqkZeHPxv/IymqzxVReU=
 			</data>
 		</dict>
 		<key>Modules/VeraSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rYrnpHyEVyk4VwICXbdXmLg1GsCMYKcFUdMWTp4T4lk=
+			b9kQ3JeFGdJ/SGHKDuQILI5wYzVbmmKAFadoW3so1xY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -141,7 +141,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WQl2vPviBx3rYKl07Sc8bamxnMT8RbcCdOBKEeQNWJU=
+			KyQICj7Q1hG276bLYO+mTE/EFc3FeWO3f8qc+kGyXnU=
 			</data>
 		</dict>
 		<key>no_internet.html</key>
